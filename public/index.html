@@ -4,9 +4,9 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html ng-app="autoApp">
 	<head>
-		<title>Alpha by HTML5 UP</title>
+		<title>SAVY Inc.</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -14,14 +14,13 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="landing">
-		<div id="page-wrapper">
-
+		<div class="slider-container" id="page-wrapper"> 
 			<!-- Header -->
 				<header id="header" class="alt">
-					<h1><a href="index.html">Alpha</a> by HTML5 UP</h1>
+					<h1><a href="#">AutoInsight</a> by SAVY Inc.</h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="#page-wrapper">Home</a></li>
 							<li>
 								<a href="#" class="icon fa-angle-down">Layouts</a>
 								<ul>
@@ -39,18 +38,18 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="#" class="button">Sign Up</a></li>
+							<li><a href="#cta" class="button">Sign Up</a></li>
 						</ul>
 					</nav>
 				</header>
 
 			<!-- Banner -->
 				<section id="banner">
-					<h2>Alpha</h2>
-					<p>Another fine responsive site template freebie by HTML5 UP.</p>
+					<h2>AutoInsight</h2>
+					<p>Auto-inspections and analytics for USED CARS!</p>
 					<ul class="actions">
-						<li><a href="#" class="button special">Sign Up</a></li>
-						<li><a href="#" class="button">Learn More</a></li>
+						<!--<li><a href="#" class="button special">Sign Up</a></li>-->
+						<li><a href="#" class="button">Get Free Trial</a></li>
 					</ul>
 				</section>
 
@@ -59,13 +58,10 @@
 
 					<section class="box special">
 						<header class="major">
-							<h2>Introducing the ultimate mobile app
-							<br />
-							for doing stuff with your phone</h2>
-							<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
-							adipiscing nunc adipiscing. Condimentum turpis massa.</p>
+							<h2>Auto-inspect BEFORE you BUY!</h2>
+							<p>Get our app and plug an adapter into your car’s standard diagnostics (OBD-II) port</p>
 						</header>
-						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+						<span class="image featured"><img src="assets/img/pic01.jpg" alt="" /></span>
 					</section>
 
 					<section class="box special features">
@@ -99,7 +95,7 @@
 						<div class="6u 12u(narrower)">
 
 							<section class="box special">
-								<span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
+								<span class="image featured"><img src="assets/img/pic02.jpg" alt="" /></span>
 								<h3>Sed lorem adipiscing</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 								<ul class="actions">
@@ -111,7 +107,7 @@
 						<div class="6u 12u(narrower)">
 
 							<section class="box special">
-								<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
+								<span class="image featured"><img src="assets/img/pic03.jpg" alt="" /></span>
 								<h3>Accumsan integer</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 								<ul class="actions">
@@ -125,7 +121,7 @@
 				</section>
 
 			<!-- CTA -->
-				<section id="cta">
+				<section id="cta" ng-controller="SignUpController">
 
 					<h2>Sign up for beta access</h2>
 					<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
@@ -136,7 +132,7 @@
 								<input type="email" name="email" id="email" placeholder="Email Address" />
 							</div>
 							<div class="4u 12u(mobilep)">
-								<input type="submit" value="Sign Up" class="fit" />
+								<input type="submit" value="Sign Up" class="fit" ng-click="submit()"/>
 							</div>
 						</div>
 					</form>
@@ -168,6 +164,10 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/angular.js"></script>
+			<script src="assets/js/angular-resource.js"></script>
+			<script src="assets/js/app.js"></script>
+
 
 	</body>
 </html>
