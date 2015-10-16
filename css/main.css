@@ -3031,13 +3031,28 @@
 		background-attachment: scroll,							fixed;
 		background-color: #666;
 		/*background-image: url("../img/overlay.png"), url("../img/banner.jpg");*/
-		background-image:  url("../img/banner.jpg");
+		/*background-image:  url("../img/banner.jpg");temp mark*/ 
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
+	}
+	.banner1 {
+		background-image:  url("../img/banner.jpg");
+	}
+	.banner2 {
+		background-image:  url("../img/banner2.jpg");
+	}
+	.banner3 {
+		background-image:  url("../img/banner3.jpg");
+	}
+	.banner4{
+		background-image:  url("../img/banner4.jpg");
+	}
+	.banner5{
+		background-image:  url("../img/banner5.jpg");
 	}
 
 		#banner :last-child {
