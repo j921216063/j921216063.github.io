@@ -3155,6 +3155,81 @@
 	body.landing #main {
 		margin-top: -14em;
 	}
+	section#main h1 {
+	  color: white;
+	  text-align: left;
+	  text-transform: uppercase;
+	  font-weight: bold;
+	  font-size: 30px;
+	  padding-right:30px;
+	  padding-top:30px;
+	}
+	section#main h4 {
+		    color: white;
+    font-size: 20px;
+	    font-weight: 600;
+		text-align: left;
+		
+
+	}
+	section#main p {
+		color: white;
+		text-align: left;
+   		 font-size: 14px;
+   		margin: 0px;
+	}
+	.first_row {
+		height:309px;
+		background-image: url("../img/bk-bl.jpg");
+		background-size: cover;
+		background-attachment: fixed; 
+		position:relative;
+	}
+				
+	.pic_container {
+		padding:0px  40px;
+		position:absolute;
+		 bottom:0px;
+	}
+	.pic {
+		height:273px; 
+		vertical-align: bottom;
+	}
+	.description {
+		/*bottom:160px;*/
+		padding: 0px 20px 0px 0px;
+		 position: absolute;
+		  right:0px
+	}
+
+	
+.media.media-circle .media-object {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: none;
+  color: #22a3df;
+  width: 30px;
+  height: 30px;
+  margin: auto auto;
+  border: 2px solid white;
+  padding:6px;
+}
+.media.media-circle:hover .media-object {
+  background: white;
+}
+
+	.scrollpoint {
+  opacity: 0;
+}
+.scrollpoint.active {
+  opacity: 1 \0;
+}
+.img-center {
+ margin: 0 auto;
+}
 
 /* Footer */
 
@@ -3788,7 +3863,37 @@
 				margin-top: 0;
 			}
 
-		/* CTA */
+				.first_row {
+				height:700px;
+				background-image: url("../img/bk-bl.jpg");
+				background-size: cover;
+				background-attachment: fixed; 
+				position:relative;
+			}
+			section#main h1 {
+				color: white;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: bold;
+				font-size: 20px;
+			}
+			.pic_container {
+				padding:0px  40px;
+				position:absolute;
+				 top:30px;
+			}
+			.pic {
+				height:200px; 
+				vertical-align: bottom;
+			}
+			.description {
+				padding: 10px 20px 0px 20px;
+				position: absolute;
+				bottom:160px;
+			}
+
+
+		/* CTA 
 
 			#cta {
 				padding: 2.5em 1em 3em 1em;
