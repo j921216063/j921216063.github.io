@@ -13,8 +13,7 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css" />
 		 <link rel="stylesheet" href="css/animate.css">
-
-		     <link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -35,7 +34,7 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#page-wrapper">Home</a></li>
-							<li>
+							<!-- <li>
 								<a href="#" class="icon fa-angle-down">Layouts</a>
 								<ul>
 									<li><a href="generic.html">Generic</a></li>
@@ -51,7 +50,7 @@
 										</ul>
 									</li>
 								</ul>
-							</li>
+							</li> -->
 							<li><a href="#cta" class="button">Sign Up</a></li>
 						</ul>
 					</nav>
@@ -61,11 +60,11 @@
 			<!-- Banner -->
 				<section id="banner" class="banner3">
 					<div class="mask">
-						<h2>AutoInsight</h2>
-						<p>Auto-inspections and analytics for USED CARS!</p>
+						<h2>Know the right value of <br/>a used car</h2>
+						<p>Integrated used cars history report & expert appraisal</p>
 						<ul class="actions">
 							<!--<li><a href="#" class="button special">Sign Up</a></li>-->
-							<li><a href="#" class="button">Get Free Trial</a></li>
+							<li><a href="#" class="button" style="font-weight: bold;">Get free access today</a></li>
 						</ul>
 					</div>
 				</section>
@@ -73,10 +72,10 @@
 			<!-- Main -->
 				<section id="main" class="container">
 
-					<section class="box special">
+					<section class="box special" style="padding:0px">
 						<header class="major">
-							<h2>Auto-inspect BEFORE you BUY!</h2>
-							<p>Get our app and plug an adapter into your car’s standard diagnostics (OBD-II) port</p>
+							<h2>All the information you need before you buy a used car!</h2>
+<!-- 							<p>Get our app and plug an adapter into your car’s standard diagnostics (OBD-II) port</p> -->
 						</header>
 						<div class="first_row">
 							 <div  class="pic_container">
@@ -94,7 +93,7 @@
 							                            <!-- </a> -->
 							                            <div class="media-body" style="padding-left: 20px;">
 							                                <h4 class="media-heading">Overview</h4>
-							                                <p>Summarizing all your interesting cars</p>
+							                                <p class="first_row_des">Summarizing all your interesting cars</p>
 							                            </div>
 							                        </div>
 							                        <div class="media media-circle" style="padding-top:20px; ">
@@ -103,7 +102,7 @@
 							                            <!-- </a> -->
 							                            <div class="media-body" style=" padding-left: 20px">
 							                                <h4 class="media-heading">VIN Number Check</h4>
-							                                <p>First round analysis from car history reports and social data</p>
+							                                <p class="first_row_des">First round analysis from car history reports and social data</p>
 							                            </div>
 							                        </div> 
 						</div>
@@ -171,11 +170,11 @@
 
 							<section class="box special">
 								<span class="image featured"><img src="img/social.png" alt="" /></span>
-								<h3>Sed lorem adipiscing</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-								<ul class="actions">
+								<h3>Trusted history report</h3>
+								<p>Free access during beta test only!<br/>National Motor Vehicle Title Information (NMVTIS) and Industry Sources</p>
+<!-- 								<ul class="actions">
 									<li><a href="#" class="button alt">Learn More</a></li>
-								</ul>
+								</ul> -->
 							</section>
 
 						</div>
@@ -183,8 +182,8 @@
 
 							<section class="box special">
 								<span class="image featured"><img src="img/history.png" alt="" /></span>
-								<h3>Accumsan integer</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+								<h3>Customer and expert appraisal</h3>
+								<p>AutoInsight grading and price estimation<br/>Powered by Edmunds</p>
 								<ul class="actions">
 							</section>
 
@@ -196,7 +195,7 @@
 			<!-- CTA -->
 				<section id="cta" ng-controller="SignUpController">
 
-					<h2>Join to get free access</h2>
+					<h2>Get free analytic reports today</h2>
 					<p>Sign-up and become our first round beta users for FREE! 
 					<br/>We will notify you when we are ready! 
 					<br/>We provide one-month FREE usage and a free OBD device for beta users.</p>
@@ -300,12 +299,10 @@
         appMaster.preLoader();
         appMaster.smoothScroll();
         appMaster.animateScript();
-          console.log('do it ');
-        console.log(appMaster);
         appMaster.navSpy();
-        appMaster.revSlider();
-        appMaster.stellar();
-        appMaster.isoTop();
+        // appMaster.revSlider();
+        // appMaster.stellar();
+        // appMaster.isoTop();
         appMaster.canvasHack();
     });
     </script>

@@ -1810,7 +1810,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		color: #00A0E8;
 		text-decoration: none;
 	}
 
@@ -2035,8 +2035,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e89980;
-			box-shadow: 0 0 0 2px #e89980;
+			border-color: #00A0E8;
+			box-shadow: 0 0 0 2px #00A0E8;
 		}
 
 	.select-wrapper {
@@ -2146,8 +2146,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #e89980;
-			box-shadow: 0 0 0 1px #e89980;
+			border-color: #00A0E8;
+			box-shadow: 0 0 0 1px #00A0E8;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2342,7 +2342,7 @@
 			}
 
 			.icon.major.accent2 {
-				background: #e89980;
+				background: #00A0E8;
 				color: #ffffff;
 			}
 
@@ -2715,7 +2715,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e89980;
+			background-color: #00A0E8;
 			color: #ffffff !important;
 		}
 
@@ -3008,7 +3008,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
-				background: #e89980;
+				background: #00A0E8;
 				color: #ffffff;
 			}
 
@@ -3172,7 +3172,7 @@
 		
 
 	}
-	section#main p {
+	.first_row_des{
 		color: white;
 		text-align: left;
    		 font-size: 14px;
@@ -3197,9 +3197,9 @@
 	}
 	.description {
 		/*bottom:160px;*/
-		padding: 0px 20px 0px 0px;
-		 position: absolute;
-		  right:0px
+		padding: 0px 120px 0px 0px;
+		position: absolute;
+		right:0px
 	}
 
 	
@@ -3281,7 +3281,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #00A0E8;
 		color: #f9e5df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3303,7 +3303,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #00A0E8;
 		}
 
 		#cta input[type="text"],
@@ -3801,7 +3801,7 @@
 					}
 
 					ul.actions li > * {
-						width: 100%;
+						/*width: 100%;*/
 						margin: 0 !important;
 					}
 
@@ -3890,6 +3890,13 @@
 				padding: 10px 20px 0px 20px;
 				position: absolute;
 				bottom:160px;
+			}
+				.mask {
+				margin: auto;
+				padding:20px 0px;
+				background-color: #3d3d3d;
+				width: 70%;
+				background-color: rgba(61,61,61,0.8);
 			}
 
 
