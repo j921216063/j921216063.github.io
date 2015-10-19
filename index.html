@@ -474,8 +474,7 @@
 <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/script.js"></script>
-<script type='text/javascript'
-        src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 <script type='text/javascript'>
     (function ($) {
                 window.fnames = new Array();
@@ -530,8 +529,21 @@ chosen link or button. -->
     }
     /* ]]> */
 </script>
-<script type="text/javascript"
+<!--<script type="text/javascript"
         src="//www.googleadservices.com/pagead/conversion_async.js">
+</script>-->
+
+<script type="text/javascript">
+    function downloadJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = "//www.googleadservices.com/pagead/conversion_async.js";
+        document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+      window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
 </script>
 </body>
 </html>
